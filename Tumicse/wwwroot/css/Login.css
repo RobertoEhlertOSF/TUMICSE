@@ -1,0 +1,79 @@
+﻿/* Form */
+.form-login {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 300px;
+    margin: 0 auto 100px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-align: center;
+}
+
+    .form-login .thumbnail {
+        background: #FFFFFF;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto 10px;
+        padding: 50px 30px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        box-sizing: border-box;
+    }
+
+        .form-login .thumbnail img {
+            display: block;
+            width: 100%;
+        }
+
+    .form-login input {
+        outline: 0;
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .form-login button {
+        outline: 0;
+        background: #009B43;
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        color: #FFFFFF;
+        font-size: 14px;
+        transition: all 0.3 ease;
+        cursor: pointer;
+    }
+
+    .form-login .message {
+        margin: 15px 0 0;
+        color: #b3b3b3;
+        font-size: 12px;
+    }
+
+        .form-login .message a {
+            color: #EF3B3A;
+            text-decoration: none;
+        }
+
+    .form-login .register-form {
+        display: none;
+    }
+
+/* END Form */

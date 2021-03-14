@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <html>
+    <head>
+        <link href="~/css/site.css" rel="stylesheet" />
+        <link href="~/css/classes.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.sub-menu ul').hide();
+                $(".sub-menu a").click(function () {
+                    $(this).parent(".sub-menu").children("ul").slideToggle("100");
+                    $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+                });
+            });
+
+            function changeSource(url) {
+            }
+
+        </script>
+    </head>
+    <body>
+        <nav class='animated bounceInDown menu'>
+            <ul>
+                <li class='sub-menu'>
+                    <a href='#settings'>Aulas 2020<div class='fa fa-caret-down right'></div></a>
+                    <ul>
+                        <li><a href="#" onclick="changeSource(rfKETMoerGw)" target="ifrm">Boiadeiros</a></li>
+                        <li><a href="#" onclick="changeSource(A1kBBB4UuoY)" target="ifrm">Marinheiros</a></li>
+                        <li><a href="javascript:void(0);">Baianos</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'>
+                    <a href='#'>Aulas 2021<div class='fa fa-caret-down right'></div></a>
+                    <ul>
+                        <li><a href='#'>Coroa Mediunica</a></li>
+                        <li><a href='#'>Educação Mediunica</a></li>
+                        <li><a href='#'>Baianos</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Logout</a></li>
+            </ul>
+        </nav>
+        <div style="width: 500px;" class="plyr__video-embed text-center" id="player">
+            <p>Aula: Marinheiros</p>
+            <iframe width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/A1kBBB4UuoY"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </body>
+</html>
+
