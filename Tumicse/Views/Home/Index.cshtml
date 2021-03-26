@@ -2,56 +2,74 @@
     ViewData["Title"] = "Home Page";
 }
 
-    <html>
-    <head>
-        <link href="~/css/site.css" rel="stylesheet" />
-        <link href="~/css/classes.css" rel="stylesheet" />
-        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('.sub-menu ul').hide();
-                $(".sub-menu a").click(function () {
-                    $(this).parent(".sub-menu").children("ul").slideToggle("100");
-                    $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
-                });
+<html>
+<head>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/2.0.15/plyr.css">
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/classes.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdn.plyr.io/2.0.15/plyr.js"></script>
+    <script>
+        $(document).ready(function () {
+            plyr.setup("#plyr-youtube");
+            $('.sub-menu ul').hide();
+            $(".sub-menu a").click(function () {
+                $(this).parent(".sub-menu").children("ul").slideToggle("100");
+                $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
             });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <h2>Aulas de Teologia de Umbanda Sagrada</h2>
+    </div>
+    <div class='animated bounceInDown menu'>
+        <ul>
+            <li class='sub-menu'>
+                <a href='#'>Aulas 2020<div class='fa fa-caret-down right'></div></a>
+                <ul>
+                    <li>
+                        @Html.ActionLink("História da Umbanda", "Index", "Home", new { urlVideo = "https://www.youtube.com/embed/sRPx6VTLMmw" }, null)
+                    </li>
+                    <li>
+                        @Html.ActionLink("Boiadeiros", "Index", "Home", new { urlVideo = "https://www.youtube.com/embed/rfKETMoerGw" }, null)
+                    </li>
+                    <li>
+                        @Html.ActionLink("Marinheiros", "Index", "Home", new { urlVideo = "https://www.youtube.com/embed/A1kBBB4UuoY" }, null)
+                    </li>
+                    <li>
+                        @Html.ActionLink("Baianos", "Index", "Home", new { urlVideo = "https://www.youtube.com/embed/X2YD18cUrg0" }, null)
+                    </li>
+                </ul>
+            </li>
+            <li class='sub-menu'>
+                <a href='#'>Aulas 2021<div class='fa fa-caret-down right'></div></a>
+                <ul>
+                    <li>
+                        @Html.ActionLink("Coroa Mediúnica", "Index", "Home", new { urlVideo = "https://www.youtube.com/embed/QZiU7TSoeJk" }, null)
+                    </li>
+                    <li>
+                        @Html.ActionLink("Educação Mediúnica", "Index", "Home", new { urlVideo = "https://www.youtube.com/embed/smMoJZV2n2I" }, null)
+                    </li>
+                    <li>
+                        @Html.ActionLink("Desenvolvimento Mediúnico", "Index", "Home", new { urlVideo = "https://www.youtube.com/embed/lysOndPYrMo" }, null)
+                    </li>
+                </ul>
+            </li>
+            <!--<li><a href='#'>Logout</a></li>-->
+        </ul>
+    </div>
 
-            function changeSource(url) {
-            }
-
-        </script>
-    </head>
-    <body>
-        <nav class='animated bounceInDown menu'>
-            <ul>
-                <li class='sub-menu'>
-                    <a href='#settings'>Aulas 2020<div class='fa fa-caret-down right'></div></a>
-                    <ul>
-                        <li><a href="#" onclick="changeSource(rfKETMoerGw)" target="ifrm">Boiadeiros</a></li>
-                        <li><a href="#" onclick="changeSource(A1kBBB4UuoY)" target="ifrm">Marinheiros</a></li>
-                        <li><a href="javascript:void(0);">Baianos</a></li>
-                    </ul>
-                </li>
-                <li class='sub-menu'>
-                    <a href='#'>Aulas 2021<div class='fa fa-caret-down right'></div></a>
-                    <ul>
-                        <li><a href='#'>Coroa Mediunica</a></li>
-                        <li><a href='#'>Educação Mediunica</a></li>
-                        <li><a href='#'>Baianos</a></li>
-                    </ul>
-                </li>
-                <li><a href='#'>Logout</a></li>
-            </ul>
-        </nav>
-        <div style="width: 500px;" class="plyr__video-embed text-center" id="player">
-            <p>Aula: Marinheiros</p>
-            <iframe width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/A1kBBB4UuoY"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+    <div style="width: 50%; margin-right:auto; margin-left:auto; display:inline-block">
+        <div>
+            <div id='plyr-youtube' data-type="youtube" data-video-id=@ViewBag.urlVideo></div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
 
