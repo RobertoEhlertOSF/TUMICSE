@@ -18,13 +18,13 @@ namespace Tumicse.Areas.Identity.Pages.Account
     [AllowAnonymous]
     public class LoginModel : PageModel
     {
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly UserManager<TumicseUser> _userManager;
+        private readonly SignInManager<TumicseUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
 
-        public LoginModel(SignInManager<ApplicationUser> signInManager, 
+        public LoginModel(SignInManager<TumicseUser> signInManager, 
             ILogger<LoginModel> logger,
-            UserManager<ApplicationUser> userManager)
+            UserManager<TumicseUser> userManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -51,7 +51,7 @@ namespace Tumicse.Areas.Identity.Pages.Account
             [DataType(DataType.Password)]
             public string Password { get; set; }
 
-            [Display(Name = "Lembrar de mim?")]
+            [Display(Name = "Remember me?")]
             public bool RememberMe { get; set; }
         }
 
