@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U687jBAjygEA2edlUDjpa8Cow5jEU4CY/gIQ44KXDnMSUfadNz0z0fzyTpp+0E9BLXLOUQ3Za3v7/SK9LJ7WJQ==",
+  "dgSpecHash": "0vjORS6hXlveHvrEU3eUgp58OlwdCg9fR7ydTEFJ7+gyy5yQlT8aMeS3YRWax98YDkFjJs2jZNXFcN+3aWP3UA==",
   "success": true,
   "projectFilePath": "C:\\Users\\rober\\Source\\Repos\\oldbetu\\TUMICSE\\Tumicse\\Tumicse.csproj",
   "expectedPackageFiles": [
@@ -90,10 +90,12 @@
     "C:\\Users\\rober\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\sendgrid\\9.22.0\\sendgrid.9.22.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.2\\sqlitepclraw.provider.dynamic_cdecl.2.0.2.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\starkbank-ecdsa\\1.2.0\\starkbank-ecdsa.1.2.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

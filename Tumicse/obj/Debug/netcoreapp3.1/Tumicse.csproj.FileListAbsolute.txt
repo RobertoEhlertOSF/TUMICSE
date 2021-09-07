@@ -343,9 +343,6 @@ C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\bin\Debug\netcoreapp3.1\runt
 C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.csprojAssemblyReference.cache
-C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.csproj.CoreCompileInputs.cache
-C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.RazorAssemblyInfo.cache
 C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.RazorAssemblyInfo.cs
 C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.AssemblyInfoInputs.cache
@@ -409,3 +406,8 @@ C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Razo
 C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
 C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
 C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\bin\Debug\netcoreapp3.1\SendGrid.dll
+C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll
+C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.csproj.CoreCompileInputs.cache
+C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rober\Source\Repos\oldbetu\TUMICSE\Tumicse\obj\Debug\netcoreapp3.1\Tumicse.MvcApplicationPartsAssemblyInfo.cache
