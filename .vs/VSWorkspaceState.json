@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Tumicse"
+    "\\Tumicse",
+    "\\Tumicse\\Controllers"
   ],
+  "SelectedNode": "\\Tumicse\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
